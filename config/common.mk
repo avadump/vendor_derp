@@ -203,6 +203,10 @@ include vendor/derp/config/version.mk
 WITH_GMS := true
 $(call inherit-product, vendor/gms/products/gms.mk)
 
+# OmniJaws
+PRODUCT_PACKAGES += \
+    OmniJaws
+
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
 
